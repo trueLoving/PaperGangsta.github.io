@@ -1,0 +1,23 @@
+{
+  "name": "vuepress-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "webpack-dev-middleware": "3.6.0",
+    "@vuepress/plugin-back-to-top": "^1.0.1",
+    "@vuepress/plugin-google-analytics": "^1.0.1",
+    "@vuepress/plugin-medium-zoom": "^1.0.1",
+    "@vuepress/plugin-pwa": "^1.0.1",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "vue-toasted": "^1.1.25",
+    "vuepress": "^1.0.1",
+    "vuepress-plugin-baidu-google-analytics": "^1.0.0",
+    "vuepress-plugin-flowchart": "^1.4.2"
+  }
+}
